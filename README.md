@@ -44,3 +44,5 @@ config.json:
 
 NOTE:
 you can `GET /myip` to view your IP with no Control access on this server.if you don't want any body know you home ip,your can run this server under nginx to [Restricting Access with HTTP Basic Authentication](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
+
+homeip will create a `myip.txt` file under the running directory to store ip address

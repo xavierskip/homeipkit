@@ -19,7 +19,6 @@ const Version = "0.2.6.1"
 
 var Step       int64  = 30
 var IPfile     string = "myip.txt"
-var CMDfile    string = "cmd.txt"
 var Urandom    string = "YouMustSetThisInConfigFile!"
 var Addr       string = "127.0.0.1:9090"
 var TIMEFORMAT string = "2006-01-02 15:04:05"
@@ -203,7 +202,7 @@ func main() {
     // telegram Bot
     Bot = NewBot(Config["telegram_token"].(string))
     // check file
-    filelist := []string{IPfile, CMDfile}
+    filelist := []string{IPfile}
     for _, filename := range filelist {
         if checkFileIsExist(filename) == false {
             f, err1 := os.Create(filename)
