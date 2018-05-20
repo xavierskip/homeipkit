@@ -1,0 +1,14 @@
+[Unit]
+Description=HomeIPkit
+After=network.target
+
+[Service]
+Type=forking
+User={username}
+Group={username}
+ExecStart=/{pathto}/runhomeip.sh
+#ExecStop=/{pathto}/killhomip.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

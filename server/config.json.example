@@ -1,0 +1,13 @@
+{
+  "addr": "127.0.0.1:9090",
+  "step": 20,
+  "random": "you need change this",
+  "dnspodtoken": "you need change this",
+  "format": "json",
+  "domain_id": "you need change this",
+  "record_id": "you need change this",
+  "sub_domain": "you need change this",
+  "record_line": "you need change this",
+  "telegram_token": "you need change this",
+  "notification_id":"you need change this"
+}
