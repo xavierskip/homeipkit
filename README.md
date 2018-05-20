@@ -1,5 +1,6 @@
 
 **功能：**
+
 服务端提供一个http服务，客户端通过定时向服务端发送信息来确认并记录客户端的IP地址来达到动态DNS的目的。
 此工具通过调用dnspod API来达到实现DDNS功能，并利用telegram bot来达到提供IP变动时的提醒功能。
 
@@ -46,6 +47,7 @@ config.json:
 ```
 
 **NOTE:**
+
 you can `GET /myip` to view your IP with no Control access on this server.if you don't want any body know you home ip,your can run this server under nginx to [Restricting Access with HTTP Basic Authentication](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
 
 homeip will create a `myip.txt` file under the running directory to store ip address
