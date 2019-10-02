@@ -11,5 +11,5 @@ else
 fi
 pkill -F homeipkit.pid
 sleep 2s
-rm pid
+rm homeipkit.pid
 # pgrep -lnf ${processname}
