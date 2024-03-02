@@ -2,8 +2,8 @@
 # url="127.0.0.1:9090/myip"
 url=$1  # your post url
 key=$2  # your key
-auth="auth:auth"  # change it if you used
-step=20  # as your server Settings
+step=$3 # as your server Settings
+auth=$4 # like: "auth:auth". change it if you used
 
 unixtime=`date +%s`
 logtime=`date +"%Y/%m/%d %H:%M:%S"`
