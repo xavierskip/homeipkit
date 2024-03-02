@@ -15,5 +15,4 @@ config.txt like:
 `https://[domain.com/myip] [yourkey] [step] [auth:auth]`
 
 Crontab:
-
-`*/5 * * * * /your/path/to/myip.sh "https://domain.com/myip" "yourkey">> /your/path/to/response.log 2>&1`
+`*/5 * * * * cd [/your/path/] && ./run_homeip.sh >> response.log 2>&1`
