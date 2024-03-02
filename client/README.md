@@ -8,8 +8,11 @@ you need check the script as your server Settings.(the `step` value in the scrip
 
 Usage:
 
-`./myip.sh "https://domain.com/myip" "yourkey"`
+1. set your config in config.txt. 
+2. run `./run_homeip.sh`
 
+config.txt like:
+`https://[domain.com/myip] [yourkey] [step] [auth:auth]`
 
 Crontab:
 
